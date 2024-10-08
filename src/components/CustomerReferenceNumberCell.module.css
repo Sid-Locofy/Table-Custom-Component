@@ -1,0 +1,23 @@
+.customerReferenceNumber {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.customerReferenceNumberCell {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #232323;
+  font-family: Roboto;
+}

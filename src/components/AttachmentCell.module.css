@@ -1,0 +1,32 @@
+.attachFileIcon,
+.fileName {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.attachFileIcon {
+  width: 24px;
+  height: 24px;
+}
+.fileName {
+  width: 105px;
+  line-height: 20px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.attachmentCell {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #191919;
+  font-family: Roboto;
+}

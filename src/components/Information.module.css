@@ -1,0 +1,32 @@
+.heading,
+.value {
+  position: relative;
+  display: inline-block;
+}
+.heading {
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.value {
+  flex: 1;
+  line-height: 20px;
+  color: #232323;
+  min-width: 220px;
+}
+.information {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 8px 48px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  font-family: Roboto;
+}

@@ -1,0 +1,42 @@
+.amount,
+.cents {
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cents {
+  font-size: 14px;
+  line-height: 17px;
+}
+.amountContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.currency {
+  position: relative;
+  font-size: 14px;
+  line-height: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.amountCurrencyCell {
+  width: 250px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  text-align: left;
+  font-size: 24px;
+  color: #191919;
+  font-family: Roboto;
+}
